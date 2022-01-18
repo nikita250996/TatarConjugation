@@ -1,0 +1,108 @@
+﻿<Window x:Class="TatarConjugation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        KeyDown="ControlKeys"
+        Title="Спряжение татарских слов" Height="235" Width="1320" SizeToContent="Height" WindowStartupLocation="CenterOwner" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Icon="download.ico" WindowState="Maximized">
+    <Grid>
+        <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible">
+            <Grid>
+                <TextBox Grid.Column="0" x:Name="Input" HorizontalAlignment="Center" Height="20" Margin="519,4,519.8,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="258" FontSize="12"/>
+                <Button Grid.Column="0" x:Name="Conjugate" Content="Проспрягать" HorizontalAlignment="Center" Margin="437,65,441.6,0" VerticalAlignment="Top" Width="75" Click="Conjugate_Click" Height="20" FontSize="12"/>
+
+                <DataGrid Name="PositiveAffirmativeTable"
+                  CanUserSortColumns="False"
+                  CanUserResizeColumns="False"
+                  CanUserResizeRows="False"
+                  CanUserDeleteRows="False"
+                  CanUserAddRows="False"
+                  CanUserReorderColumns="False"
+                  AutoGenerateColumns="False"
+                  HorizontalAlignment="Center"
+                  Margin="39,130,968.6,49.6"
+                  IsReadOnly="True" MinColumnWidth="30" FontSize="12" Width="290">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Зат" Binding="{Binding Person}" FontWeight="Bold"/>
+                        <DataGridTextColumn Header="Фигыль заманы" Binding="{Binding Tense}" Width="auto" FontWeight="Bold"/>
+                        <DataGridTextColumn Header="Берлек сан" Binding="{Binding Singular}" Width="auto"/>
+                        <DataGridTextColumn Header="Күплек сан" Binding="{Binding Plural}" Width="auto"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <DataGrid Name="NegativeAffirmativeTable"
+                          CanUserSortColumns="False"
+                          CanUserResizeColumns="False"
+                          CanUserResizeRows="False"
+                          CanUserDeleteRows="False"
+                          CanUserAddRows="False"
+                          CanUserReorderColumns="False"
+                          AutoGenerateColumns="False"
+                          Margin="349,130,658.6,49.6"
+                          HorizontalAlignment="Center"
+                          IsReadOnly="True" MinColumnWidth="30" FontSize="12" Width="290">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Зат" Binding="{Binding Person}" FontWeight="Bold"/>
+                        <DataGridTextColumn Header="Фигыль заманы" Binding="{Binding Tense}" Width="auto" FontWeight="Bold"/>
+                        <DataGridTextColumn Header="Берлек сан" Binding="{Binding Singular}" Width="auto"/>
+                        <DataGridTextColumn Header="Күплек сан" Binding="{Binding Plural}" Width="auto"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <DataGrid Name="PositiveInterrogativeTable"
+                  CanUserSortColumns="False"
+                  CanUserResizeColumns="False"
+                  CanUserResizeRows="False"
+                  CanUserDeleteRows="False"
+                  CanUserAddRows="False"
+                  CanUserReorderColumns="False"
+                  AutoGenerateColumns="False"
+                  HorizontalAlignment="Center"
+                  Margin="659,130,348.6,49.6"
+                  IsReadOnly="True" MinColumnWidth="30" FontSize="12" Width="290">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Зат" Binding="{Binding Person}" FontWeight="Bold"/>
+                        <DataGridTextColumn Header="Фигыль заманы" Binding="{Binding Tense}" Width="auto" FontWeight="Bold"/>
+                        <DataGridTextColumn Header="Берлек сан" Binding="{Binding Singular}" Width="auto"/>
+                        <DataGridTextColumn Header="Күплек сан" Binding="{Binding Plural}" Width="auto"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <DataGrid Name="NegativeInterrogativeTable"
+                          CanUserSortColumns="False"
+                          CanUserResizeColumns="False"
+                          CanUserResizeRows="False"
+                          CanUserDeleteRows="False"
+                          CanUserAddRows="False"
+                          CanUserReorderColumns="False"
+                          AutoGenerateColumns="False"
+                          HorizontalAlignment="Center"
+                          Margin="969,130,38.6,49.6"
+                          IsReadOnly="True" MinColumnWidth="30" FontSize="12" Width="290">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Зат" Binding="{Binding Person}" FontWeight="Bold"/>
+                        <DataGridTextColumn Header="Фигыль заманы" Binding="{Binding Tense}" Width="auto" FontWeight="Bold"/>
+                        <DataGridTextColumn Header="Берлек сан" Binding="{Binding Singular}" Width="auto"/>
+                        <DataGridTextColumn Header="Күплек сан" Binding="{Binding Plural}" Width="auto"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <Grid Height="25" Width="475" HorizontalAlignment="Center" Margin="403,35,403.6,90.6" VerticalAlignment="Top">
+                    <Button Grid.Column="0" x:Name="FirstSpecificLetter" Content="ө" HorizontalAlignment="Center" Margin="0,0,400,0" VerticalAlignment="Top" Width="75" Click="FirstSpecificLetter_Click" Height="20" FontSize="12"/>
+                    <Button Grid.Column="0" x:Name="SecondSpecificLetter" Content="ң" HorizontalAlignment="Center" Margin="80,0,320,0" VerticalAlignment="Top" Width="75" Click="SecondSpecificLetter_Click" Height="20" FontSize="12"/>
+                    <Button Grid.Column="0" x:Name="ThirdSpecificLetter" Content="ү" HorizontalAlignment="Center" Margin="160,0,240,0" VerticalAlignment="Top" Width="75" Click="ThirdSpecificLetter_Click" Height="20" FontSize="12"/>
+                    <Button Grid.Column="0" x:Name="FourthSpecificLetter" Content="ә" HorizontalAlignment="Center" Margin="240,0,160,0" VerticalAlignment="Top" Width="75" Click="FourthSpecificLetter_Click" Height="20" FontSize="12"/>
+                    <Button Grid.Column="0" x:Name="FifthSpecificLetter" Content="җ" HorizontalAlignment="Center" Margin="320,0,80,0" VerticalAlignment="Top" Width="75" Click="FifthSpecificLetter_Click" Height="20" FontSize="12"/>
+                    <Button Grid.Column="0" x:Name="SixthSpecificLetter" Content="һ" HorizontalAlignment="Center" Margin="400,0,0,0" VerticalAlignment="Top" Width="75" Click="SixthSpecificLetter_Click" Height="20" FontSize="12"/>
+                </Grid>
+                <Button Grid.Column="0" x:Name="Clear" Content="Очистить" HorizontalAlignment="Center" Margin="797,4,424.8,0" VerticalAlignment="Top" Width="75" Height="20" Click="Clear_Click" FontSize="12"/>
+                <Label Content="Положительные утвердительные формы" HorizontalAlignment="Center" Margin="56,85,1005.6,0" VerticalAlignment="Top" RenderTransformOrigin="-0.375,0.25" FontSize="12"/>
+                <Label Content="Отрицательные утвердительные формы" HorizontalAlignment="Center" Margin="370,85,689.6,0" VerticalAlignment="Top" RenderTransformOrigin="-0.375,0.25" FontSize="12"/>
+                <Label Content="Положительные вопросительные формы" HorizontalAlignment="Center" Margin="692,85,373.6,0" VerticalAlignment="Top" RenderTransformOrigin="-0.375,0.25" FontSize="12"/>
+                <Label Content="Отрицательные вопросительные формы" HorizontalAlignment="Center" Margin="1006,85,56.6,0" VerticalAlignment="Top" RenderTransformOrigin="-0.375,0.25" FontSize="12"/>
+                <Label x:Name="FirstInfinitive" HorizontalAlignment="Center" Margin="169,104,1118.6,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold"/>
+                <Label x:Name="SecondInfinitive" HorizontalAlignment="Center" Margin="484,104,803.6,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold"/>
+                <Label x:Name="ThirdInfinitive" HorizontalAlignment="Center" Margin="804,104,483.6,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold"/>
+                <Label x:Name="FourthInfinitive" HorizontalAlignment="Center" Margin="1119,104,168.6,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold"/>
+            </Grid>
+        </ScrollViewer>
+        <Label Content="Версия 0,01" Margin="1204,10,0,169.6" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>

@@ -1,0 +1,42 @@
+C:\Users\Никита\Documents\Visual Studio 2017\Projects\TatarConjugation\TatarConjugation\bin\Debug\TatarConjugation.exe.config
+C:\Users\Никита\Documents\Visual Studio 2017\Projects\TatarConjugation\TatarConjugation\bin\Debug\TatarConjugation.exe
+C:\Users\Никита\Documents\Visual Studio 2017\Projects\TatarConjugation\TatarConjugation\bin\Debug\TatarConjugation.pdb
+C:\Users\Никита\Documents\Visual Studio 2017\Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.csprojResolveAssemblyReference.cache
+C:\Users\Никита\Documents\Visual Studio 2017\Projects\TatarConjugation\TatarConjugation\obj\Debug\MainWindow.baml
+C:\Users\Никита\Documents\Visual Studio 2017\Projects\TatarConjugation\TatarConjugation\obj\Debug\MainWindow.g.cs
+C:\Users\Никита\Documents\Visual Studio 2017\Projects\TatarConjugation\TatarConjugation\obj\Debug\App.g.cs
+C:\Users\Никита\Documents\Visual Studio 2017\Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation_MarkupCompile.cache
+C:\Users\Никита\Documents\Visual Studio 2017\Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.g.resources
+C:\Users\Никита\Documents\Visual Studio 2017\Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.Properties.Resources.resources
+C:\Users\Никита\Documents\Visual Studio 2017\Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.csproj.GenerateResource.Cache
+C:\Users\Никита\Documents\Visual Studio 2017\Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Documents\Visual Studio 2017\Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.exe
+C:\Users\Никита\Documents\Visual Studio 2017\Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.pdb
+C:\Users\Никита\Desktop\Спряжение глаголов\TatarConjugation\TatarConjugation\bin\Debug\TatarConjugation.exe.config
+C:\Users\Никита\Desktop\Спряжение глаголов\TatarConjugation\TatarConjugation\bin\Debug\TatarConjugation.exe
+C:\Users\Никита\Desktop\Спряжение глаголов\TatarConjugation\TatarConjugation\bin\Debug\TatarConjugation.pdb
+C:\Users\Никита\Desktop\Спряжение глаголов\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.csprojResolveAssemblyReference.cache
+C:\Users\Никита\Desktop\Спряжение глаголов\TatarConjugation\TatarConjugation\obj\Debug\MainWindow.baml
+C:\Users\Никита\Desktop\Спряжение глаголов\TatarConjugation\TatarConjugation\obj\Debug\MainWindow.g.cs
+C:\Users\Никита\Desktop\Спряжение глаголов\TatarConjugation\TatarConjugation\obj\Debug\App.g.cs
+C:\Users\Никита\Desktop\Спряжение глаголов\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation_MarkupCompile.cache
+C:\Users\Никита\Desktop\Спряжение глаголов\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.g.resources
+C:\Users\Никита\Desktop\Спряжение глаголов\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.Properties.Resources.resources
+C:\Users\Никита\Desktop\Спряжение глаголов\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.csproj.GenerateResource.Cache
+C:\Users\Никита\Desktop\Спряжение глаголов\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Спряжение глаголов\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.exe
+C:\Users\Никита\Desktop\Спряжение глаголов\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.pdb
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\bin\Debug\TatarConjugation.exe.config
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\bin\Debug\TatarConjugation.exe
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\bin\Debug\TatarConjugation.pdb
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.csproj.AssemblyReference.cache
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Debug\MainWindow.baml
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Debug\MainWindow.g.cs
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Debug\App.g.cs
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation_MarkupCompile.cache
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.g.resources
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.Properties.Resources.resources
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.csproj.GenerateResource.cache
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.csproj.CoreCompileInputs.cache
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.exe
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Debug\TatarConjugation.pdb

@@ -1,0 +1,14 @@
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\bin\Release\TatarConjugation.exe.config
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\bin\Release\TatarConjugation.exe
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\bin\Release\TatarConjugation.pdb
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Release\TatarConjugation.csproj.AssemblyReference.cache
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Release\MainWindow.baml
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Release\MainWindow.g.cs
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Release\App.g.cs
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Release\TatarConjugation_MarkupCompile.cache
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Release\TatarConjugation.g.resources
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Release\TatarConjugation.Properties.Resources.resources
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Release\TatarConjugation.csproj.GenerateResource.cache
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Release\TatarConjugation.csproj.CoreCompileInputs.cache
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Release\TatarConjugation.exe
+A:\Visual Studio Projects\TatarConjugation\TatarConjugation\obj\Release\TatarConjugation.pdb
